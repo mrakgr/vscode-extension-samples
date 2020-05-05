@@ -56,7 +56,7 @@ export function activate(context: ExtensionContext) {
 					// and if so then complete if `log`, `warn`, and `error`
 					let linePrefix = document.lineAt(position).text.substr(0, position.character);
 					if (linePrefix.endsWith('console.')) {
-						const make = (label : string) => new CompletionItem(label, CompletionItemKind.Method)
+						const make = (label : string) => new CompletionItem(label, CompletionItemKind.Method);
 						return [make('log'), make('warn'), make('error')];
 					}
 				}

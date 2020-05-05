@@ -3,6 +3,16 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"type": "node",
+			"request": "launch",
+			"name": "Launch Server",
+			"program": "${workspaceRoot}/server/out/server.js",
+			"args": ["--socket=6009"],
+			"skipFiles": [
+				"<node_internals>/**"
+			]
+		},
+		{
 			"type": "extensionHost",
 			"request": "launch",
 			"name": "Launch Client",

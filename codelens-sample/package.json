@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "publisher": "ms-vscode",
     "engines": {
-        "vscode": "^1.26.0"
+        "vscode": "^1.32.0"
     },
     "categories": [
         "Other"
@@ -13,7 +13,7 @@
     "activationEvents": [
         "*"
     ],
-    "main": "./out/extension",
+    "main": "out/extension'.js",
     "contributes": {
         "commands": [
             {
@@ -43,10 +43,9 @@
         "watch": "tsc -watch -p ./"
     },
     "devDependencies": {
-        "@types/node": "10.3.6",
-        "@types/vscode": "^1.26.0",
-        "tslint": "5.10.0",
-        "typescript": "2.9.2",
-        "vscode": "^1.1.21"
+        "@types/node": "^10.12.18",
+        "tslint": "^5.16.0",
+        "typescript": "^3.5.1",
+        "@types/vscode": "^1.32.0"
     }
 }

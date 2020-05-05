@@ -56,7 +56,7 @@ export class FoodRelation {
 	private _object: string;
 
 	constructor(subject: string, verb: string, object: string,
-		private readonly originalText: string, public readonly range: vscode.Range) {
+		public readonly originalText: string, public readonly range: vscode.Range) {
 			
 		this._subject = subject.toLowerCase();
 		this._verb = verb.toLowerCase();

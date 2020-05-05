@@ -55,6 +55,7 @@ export default class Provider implements vscode.TextDocumentContentProvider, vsc
 
 			// sort by locations and shuffle to begin from target resource
 			let idx = 0;
+			// Note: The next line has a stealth bug because !!0 === false
 			locations.sort(Provider._compareLocations).find((loc, i) => loc.uri.toString() === target.toString() && !!(idx = i) && true);
 			locations.push(...locations.splice(0, idx));
 

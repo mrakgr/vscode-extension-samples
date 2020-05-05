@@ -15,7 +15,7 @@
 		"onCommand:extensionTerminalSample.create",
 		"onCommand:extensionTerminalSample.clear"
 	],
-	"main": "./out/extension.js",
+	"main": "./out/extension'.js",
 	"contributes": {
 		"commands": [
 			{

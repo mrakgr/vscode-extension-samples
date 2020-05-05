@@ -44,6 +44,8 @@
 					"description": "The WebSocket port to stream LSP log data into."
 				},
 				"languageServerExample.trace.server": {
+					"format": "json",
+					"verbosity": "verbose",
 					"scope": "window",
 					"type": "object",
 					"description": "Traces the communication between VS Code and the language server.",

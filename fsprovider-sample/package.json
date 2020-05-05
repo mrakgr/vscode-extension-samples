@@ -1,7 +1,7 @@
 {
 	"name": "vscode-memfs",
 	"displayName": "MemFS - a file system provider sample",
-	"description": "Showcase for the file system provider API, also useful for testing again document that are not on disk.",
+	"description": "Showcase for the file system provider API, also useful for testing against documents that are not on disk.",
 	"version": "0.0.3",
 	"publisher": "vscode-samples",
 	"repository": {
@@ -20,7 +20,7 @@
 		"onCommand:memfs.init",
 		"onCommand:memfs.reset"
 	],
-	"main": "./out/src/extension",
+	"main": "./out/src/extension'",
 	"contributes": {
 		"commands": [
 			{
